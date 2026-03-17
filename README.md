@@ -12,10 +12,29 @@ A Python-based security monitoring tool that detects repeated failed login attem
 - Suspicious IP tracking
 - Attack summary statistics
 
+## Why This Project Matters
+
+This project demonstrates practical experience in:
+
+- Real-time system monitoring
+- Security event detection
+- Log analysis and automation
+- Identifying suspicious activity patterns
+
+It reflects real-world IT and cybersecurity workflows where monitoring systems are used to detect and respond to potential threats.
+
 ## How It Works
 
 The script continuously monitors a server log file for login activity.  
 When multiple failed login attempts are detected from the same IP address, the system triggers an alert and records the attack.
+
+## Future Improvements
+
+- Add email or Slack-based alert notifications
+- Support multiple log file sources
+- Build a web dashboard for visualization
+- Implement advanced anomaly detection
+- Deploy as a cloud-based monitoring system
 
 ## Technologies Used
 
@@ -51,11 +70,15 @@ Example:
 192.168.1.77
 192.168.1.22
 
-## Running the Program
+## Running the Project
 
-Clone the repository or download the files.
+Clone the repository:
+
+```bash
+git clone <your-repo-url>
+cd cloud-log-monitoring-system
 Then run:
-python log_monitor.py
+python src/log_monitor.py
 Stop monitoring by pressing:
 Ctrl + C
 
