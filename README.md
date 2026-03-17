@@ -80,14 +80,10 @@ Example:
 Clone the repository:
 ```
 git clone https://github.com/milindpat/cloud-log-monitoring-system.git
-
 cd cloud-log-monitoring-system
-
 Then run:
 python src/log_monitor.py
-
 Stop monitoring by pressing:
-
 Ctrl + C
 
 ## System Workflow
