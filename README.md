@@ -70,12 +70,10 @@ Example:
 192.168.1.77
 192.168.1.22
 
-## Running the Project
+## Running the Program
 
 Clone the repository:
-
-```bash
-git clone <your-repo-url>
+git clone https://github.com/milindpat/cloud-log-monitoring-system.git
 cd cloud-log-monitoring-system
 Then run:
 python src/log_monitor.py
